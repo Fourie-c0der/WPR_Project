@@ -7,10 +7,14 @@
     "dev": "nodemon app.js"
   },
   "devDependencies": {
-    "nodemon": "^2.0.0"
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "express": "^4.18.0",
-    "ejs": "^3.1.0"
-  }
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "description": "Starter boilerplate for a Node.js + Express + EJS website.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
