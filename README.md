@@ -1,9 +1,24 @@
-# Community Portal Project
+# Soccer Club Community Portal Project
 
 ## Overview
+This Node.js-based web portal helps KQMF United connect with the community by showcasing matches, team members, and allowing fans to reach out.
 
-Starter boilerplate for a Node.js + Express + EJS website.
+## Technologies
+- Node.js
+- Express.js
+- EJS
+- HTML5
+- CSS
+- Git & GitHub 
+- nodemon
 
+## Team Members
+|Name             |Role           |
+|-----------------|---------------|
+|Marco Reiners    |Team Lead & Documentation Manager
+|
+|
+|
 ## Instructions
 
 1. Run `npm install` to install dependencies.
