@@ -53,27 +53,3 @@ fs.writeFile(
 });
 
 
-
-let events = [{
-      name: "Varsity Football Challenge",
-      date: "2023-10-07",
-      time: "14:00",
-      opponent: "TUT FC",
-      type: "Friendly Match",
-      location: "Belgium Campus Sports Complex"
-    },
-    {
-      name: "Tech & Football Symposium",
-      date: "2023-11-12",
-      time: "09:00-16:00",
-      type: "Seminar",
-      description: "Exploring sports technology and analytics in modern football"
-    },
-    {
-      name: "Annual eFootball Tournament",
-      date: "2023-12-02",
-      time: "10:00-18:00",
-      type: "Gaming Competition",
-      platform: "EA Sports FC 24"
-    }
-];
