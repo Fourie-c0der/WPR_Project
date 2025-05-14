@@ -36,8 +36,3 @@ This project provided valuable experience in building a dynamic web app using te
 
 ### Link to Our Github Repository
 https://github.com/Fourie-c0der/WPR_Project
-
-## Screenshots
-
-
-
