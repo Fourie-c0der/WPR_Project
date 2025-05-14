@@ -1,7 +1,12 @@
 # Soccer Club Community Portal Project
 
 ## Overview
-This Node.js-based web portal helps KQMF United connect with the community by showcasing matches, team members, and allowing fans to reach out.
+The **KQMF United Community Portal** is a dynamic website developed using **Node.js**, **Express.js**, and **EJS**. It serves as the official hub for the soccer club to connect with fans and the community by showcasing:
+- Team and club info
+- Upcoming events and matches
+- A contact form for fans and sponsors
+
+The site is built with a focus on modular structure, templating, and clean backend routing.
 
 ## Technologies
 - Node.js
