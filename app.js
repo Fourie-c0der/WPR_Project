@@ -31,7 +31,7 @@ if (fs.existsSync(fp)) {
     messages = [];
   }
 }
-
+// add the 
 app.post("/contact",(req,res) =>{
   const name = req.body.name;
   const email = req.body.email;
@@ -52,15 +52,28 @@ fs.writeFile(
 )
 });
 
-let team =[];
-let events = [
-  // {name: "Meet and great", date: "2022-01-01"},
+
+
+let events = [{
+      name: "Varsity Football Challenge",
+      date: "2023-10-07",
+      time: "14:00",
+      opponent: "TUT FC",
+      type: "Friendly Match",
+      location: "Belgium Campus Sports Complex"
+    },
+    {
+      name: "Tech & Football Symposium",
+      date: "2023-11-12",
+      time: "09:00-16:00",
+      type: "Seminar",
+      description: "Exploring sports technology and analytics in modern football"
+    },
+    {
+      name: "Annual eFootball Tournament",
+      date: "2023-12-02",
+      time: "10:00-18:00",
+      type: "Gaming Competition",
+      platform: "EA Sports FC 24"
+    }
 ];
-// Create and manage data arrays in a separate module or directly in route files:
-// Team info array for the About page
-// Events array for the Events page
-// Contact messages array for storing form submissions
-// Pass arrays to EJS views and use EJS loops to render them dynamically.
-// Ensure consistent structure and clean access to data (no hardcoding in EJS).
-
-
